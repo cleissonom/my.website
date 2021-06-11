@@ -1,0 +1,26 @@
+.header {
+  font-size: 3.5rem;
+  padding: 12rem 8rem;
+  align-items: center;
+  height: 625px;
+  background-color: #191622;
+  color: #fff;
+  font-weight: 700;
+}
+.header span {
+  color: #f50000;
+}
+.btn {
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: .3rem .7rem;
+  border: 2px solid #f50000;
+  color: #f50000;
+}
+
+.btn:hover {
+  background-color: #f50000;
+  color: #fff;
+  position: relative;
+  bottom: .2rem;
+}
