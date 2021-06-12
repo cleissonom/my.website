@@ -1,6 +1,6 @@
 #contact {
   background-color: #f50000;
-  height: 600px;
+  height: 100%;
   padding-top: 3rem;
   padding-bottom: 5rem;
   color: #191622;
@@ -32,7 +32,7 @@ li {
   padding: .8rem;
 }
 .btn-contact {
-  filter: drop-shadow(0 0 0.75rem #191622);
+  filter: drop-shadow(0 0 10rem #191622);
 }
 /* Rocketseat */
 .btn-contact.rocketseat {
@@ -41,8 +41,8 @@ li {
 }
 .btn-contact.rocketseat:hover,
 .btn-contact.rocketseat:focus {
-  background-color: #8c67e4;
-  filter: drop-shadow(0 0 0.75rem #191622);
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.8rem #191622);
 }
 /* Instagram */
 .btn-contact.instagram {
@@ -51,8 +51,8 @@ li {
 }
 .btn-contact.instagram:hover,
 .btn-contact.instagram:focus {
-  background-color: #8c67e4;
-  filter: drop-shadow(0 0 0.75rem #191622);
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.8rem #191622);
 }
 /* Github */
 .btn-contact.github {
@@ -61,8 +61,8 @@ li {
 }
 .btn-contact.github:hover,
 .btn-contact.github:focus {
-  background-color: #131313;
-  filter: drop-shadow(0 0 0.75rem #191622);
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.8rem #191622);
 }
 /* LinkedIn */
 .btn-contact.linkedin {
@@ -71,8 +71,8 @@ li {
 }
 .btn-contact.linkedin:hover,
 .btn-contact.linkedin:focus {
-  background-color: #3270bb;
-  filter: drop-shadow(0 0 0.75rem #191622);
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.8rem #191622);
 }
 /* Twitter */
 .btn-contact.twitter {
@@ -81,8 +81,8 @@ li {
 }
 .btn-contact.twitter:hover,
 .btn-contact.twitter:focus {
-  background-color: #32a2e8;
-  filter: drop-shadow(0 0 0.75rem #191622);
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.8rem #191622);
 }
 /* E-mail */
 .btn-contact.email {
@@ -91,6 +91,6 @@ li {
 }
 .btn-contact.email:hover,
 .btn-contact.email:focus {
-  background-color: #178fff;
-  filter: drop-shadow(0 0 0.75rem #191622);
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.8rem #191622);
 }

@@ -21,6 +21,10 @@
 .project-me img {
   width: 20rem;
 }
+.project-me img:hover {
+  transform: scale(1.1);
+}
+
 .project-text {
   padding-right: 3rem;
 }
