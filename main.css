@@ -28,4 +28,10 @@
     font-size: 62.25%; /* 10px */
   }
 }
-/* Button */
+/* Icon */
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+}

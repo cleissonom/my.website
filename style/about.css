@@ -1,7 +1,7 @@
 #about {
   background-color: #f50000;
   height: 500px;
-  padding-top: 3.5rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
   color: #191622;
 }
@@ -10,6 +10,8 @@
   margin-left: auto;
   margin-right: auto;
   height: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;  
 }
 .title {
   display: flex;
@@ -29,7 +31,7 @@
   width: 100%;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
 }
 .about-me img {
@@ -37,6 +39,8 @@
   width: 20rem;
   border: 5px solid #191622;
   filter: drop-shadow(0 0 0.75rem #191622);
+  position: relative;
+  bottom: 1.6rem;
 }
 .about-text {
   padding-left: 5rem;
@@ -54,6 +58,7 @@
   padding: .3rem .7rem;
   border: 2px solid #191622;
   color: #191622;
+  font-weight: 500;
 }
 .about-text a:hover {
   background-color: #191622;

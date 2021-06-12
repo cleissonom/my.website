@@ -1,0 +1,49 @@
+#projects {
+  background-color: #191622;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  color: #fff;
+}
+.project-content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.project-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.project-me img {
+  width: 20rem;
+}
+.project-text {
+  padding-right: 3rem;
+}
+.project-p-h p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.btn-project {
+  padding-top: 1rem;
+}
+.btn-project a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: .3rem .7rem;
+  border: 2px solid #f50000;
+  color: #f50000;
+  margin-right: 1.5rem;
+  font-weight: 500;
+
+}
+.btn-project a:hover {
+  background-color: #f50000;
+  color: #191622;
+  position: relative;
+  bottom: .2rem;
+}
