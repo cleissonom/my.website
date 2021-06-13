@@ -61,8 +61,15 @@
   font-weight: 500;
 }
 .about-text a:hover {
-  background-color: #191622;
-  color: #f50000;
-  position: relative;
-  bottom: .2rem;
+  animation-name: about;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes about {
+  100% {
+    background-color: #191622;
+    color: #f50000;
+    position: relative;
+    bottom: .2rem;
+  }
 }

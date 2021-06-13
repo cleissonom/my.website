@@ -19,8 +19,15 @@
 }
 
 .btn:hover {
+  animation-name: know;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes know {
+  100% {
   background-color: #f50000;
   color: #fff;
   position: relative;
   bottom: .2rem;
+  }
 }

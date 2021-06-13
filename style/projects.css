@@ -22,7 +22,14 @@
   width: 20rem;
 }
 .project-me img:hover {
-  transform: scale(1.1);
+  animation-name: img;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes img {
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .project-text {
@@ -46,8 +53,15 @@
 
 }
 .btn-project a:hover {
-  background-color: #f50000;
-  color: #191622;
-  position: relative;
-  bottom: .2rem;
+  animation-name: project;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes project {
+  100% {
+    background-color: #f50000;
+    color: #191622;
+    position: relative;
+    bottom: .2rem;
+  }
 }
