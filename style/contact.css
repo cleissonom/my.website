@@ -6,8 +6,9 @@
   color: #191622;
 }
 .btns {
-  display: block;
+  display: flex;
   text-align: center;
+  flex-direction: column;
   margin-top: 1rem;
 }
 .btn-contact {
@@ -93,4 +94,14 @@ li {
 .btn-contact.email:focus {
   transform: scale(1.03);
   filter: drop-shadow(0 0 0.8rem #191622);
+}
+
+@media (max-width: 360px) {
+   .btn-contact {
+      width: 80vw;
+   }
+
+   .btn-contact.email {
+      word-break: break-all;
+   }
 }

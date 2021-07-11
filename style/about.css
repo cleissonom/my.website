@@ -27,6 +27,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-direction: row;
   height: 100%;
   width: 100%;
   padding-left: auto;
@@ -62,7 +63,7 @@
 }
 .about-text a:hover {
   animation-name: about;
-  animation-duration: 300ms;
+  animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
 @keyframes about {
@@ -72,4 +73,23 @@
     position: relative;
     bottom: .2rem;
   }
+}
+
+@media (max-width: 950px) {
+   .about-me {
+      flex-direction: column;
+   }
+
+   .about-me img {
+      margin: 0 auto;
+   }
+
+   .about-text {
+      text-align: center;
+      padding: 3rem 0 0;
+   }
+
+   .about-text p {
+      width: 100%;
+   }
 }
