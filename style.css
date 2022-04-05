@@ -17,6 +17,9 @@ body {
    background-repeat: no-repeat;
    background-attachment: fixed;
 
+   height: 100%;
+   width: 100%;
+
    display: grid;
    place-items: center;
    justify-items: center;
@@ -31,6 +34,7 @@ main {
    display: block;
    width: 358px;
    height: 560px;
+   text-align: center;
 
    background: rgba(255, 255, 255, 0.1);
    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -45,4 +49,33 @@ main {
    left: 0;
 
    border-radius: 10px;
+}
+
+/* ======= Avatar Image ======== */
+
+.avatar {
+   width: 10rem;
+   height: 11rem;
+   object-fit: cover;
+   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+/* ======= Buttons ======== */
+
+.buttons {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 1rem;
+
+   filter: brightness(80%);
+}
+
+.btn {
+   height: 2rem;
+   width: 2rem;
+
+   background-color: #222;
+   padding: 0.5rem;
+   border-radius: 20%;
 }

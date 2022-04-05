@@ -19,9 +19,36 @@
 </head>
 
 <body>
-   <main>Teste</main>
+   <main id="main">
+      <img src="./images/perfil.jpeg" alt="avatar image" class="avatar">
+      <h2 class="name">Cleisson de Oliveira Moura</h2>
+      <h3 class="title">Software Engineer</h3>
+      <h4 class="languages">JavaScript | Python</h4>
+      <div class="buttons">
+         <a href="#"><img class="btn linkedin" src="./icons/linkedin.svg" alt="Linkedin Button" title="Linkedin"></a>
+         <a href="#"><img class="btn twitter" src="./icons/twitter.svg" alt="Twitter Button" title="Twitter"></a>
+         <a href="#"><img class="btn github" src="./icons/github.svg" alt="Github Button" title="Github"></a>
+         <a href="#"><img class="btn rocketseat" src="./icons/rocketseat.svg" alt="Rockeatseat Button"
+               title="Rocketseat"></a>
+         <a href="#"><img class="btn source" src="./icons/source.svg" alt="Source Button" title="Source"></a>
+      </div>
+   </main>
 
    <script type="text/javascript" src="vanilla-tilt.js"></script>
+   <script>
+      VanillaTilt.init(document.querySelector("#main"), {
+         max: 5,
+         speed: 500,
+         glare: true,
+         "max-glare": 0.3,
+         gyroscope: true,
+         scale: 1.01,
+         gyroscopeMinAngleX: -45,
+         gyroscopeMaxAngleX: 45,
+         gyroscopeMinAngleY: -45,
+         gyroscopeMaxAngleY: 45,
+      });
+   </script>
 </body>
 
 </html>
