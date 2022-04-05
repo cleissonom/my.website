@@ -1,0 +1,43 @@
+/* ======= General CSS ======== */
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+body {
+   box-sizing: border-box;
+   background-image: url(https://live.staticflickr.com/1229/1359933304_ed963f2c1d_k.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+   display: grid;
+   place-items: center;
+   justify-items: center;
+   align-items: center;
+   -webkit-font-smoothing: antialiased;
+   font-family: 'Roboto', sans-serif;
+}
+
+/* ======= Main ======== */
+
+main {
+   display: block;
+   width: 358px;
+   height: 560px;
+   background-color: red;
+
+   position: relative;
+   top: 25%;
+   bottom: 50%;
+   right: 0;
+   left: 0;
+
+   border-radius: 10px;
+}
