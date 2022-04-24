@@ -10,7 +10,14 @@
    background: transparent;
 }
 
+html {
+   overflow: hidden;
+   height: 100%;
+}
+
 body {
+   overflow: auto;
+
    box-sizing: border-box;
    background-image: url(./images/background.jpeg);
    background-size: cover;
